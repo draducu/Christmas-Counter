@@ -1,0 +1,74 @@
+:root {
+    --wine-red: #e5383b;
+    --bright-red: #D42D2F;
+    --dark-green: #1e8509;
+    --light-green: #77A047;
+    --gold: #FAC57D;
+    --snow: #F0F4F7;
+    --blue: #1e6091;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body { 
+    width: 500px;
+    text-align: center;
+    background-color: var(--snow);
+} 
+h1 {
+    color: var(--dark-green);
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 3em;
+}
+.container {
+    display: inline-block;
+    background: var(--wine-red);
+    color: var(--snow);
+    padding: 1.6em 0;
+    margin: 0;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 24%;
+}
+.container:nth-of-type(2) {
+    background-color: var(--blue);
+}
+.container:nth-of-type(3) {
+    background-color: var(--light-green);
+}
+.container:nth-of-type(4) {
+    background-color: var(--gold);
+}
+.countdown-display {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+p { padding: 0;
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+button {
+    width: 492px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    margin: 1.3em auto;
+    margin-bottom: 0;
+    border-radius: 8px;
+    padding: 10px;
+}
+.message {
+    color: var(--bright-red);
+    font-size: 4em;
+    margin: 0.7em 0 0em 0;
+}
+.message-warning {
+    color: var(--blue);
+    font-size: 2em;
+    margin: 0.7em 0 1em 0;
+}

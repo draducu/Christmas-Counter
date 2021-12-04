@@ -1,0 +1,1 @@
+Christmas Counter !!! This project is an browser extension. Load it ! Do not forget to activate developer mode ! :)  
